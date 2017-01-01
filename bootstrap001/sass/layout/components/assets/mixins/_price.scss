@@ -1,0 +1,9 @@
+@mixin price($color,$size,$font-family,$float,$postion){
+	span{
+		color:$color;
+		font-size: $size;
+		font-family: $font-family;
+		float:$float;
+		padding:$postion;
+	}
+}

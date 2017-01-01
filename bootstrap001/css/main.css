@@ -1,0 +1,139 @@
+#header .logo-div h1 {
+  color: #3cc3b5;
+  font-family: Lobster; }
+
+#header .search-div {
+  padding-top: 15px;
+  padding-bottom: 10px; }
+
+#header .cart {
+  float: right; }
+  #header .cart span {
+    color: #a1a1a1;
+    font-size: 20px;
+    font-family: "BebasNeue";
+    float: right;
+    padding: 25px 0px 0px 0px; }
+  #header .cart img {
+    float: right;
+    padding-top: 5px;
+    margin-right: 5px; }
+
+.menu {
+  background-color: #4ccfc1; }
+  .menu ul li a {
+    font-family: BebasNeue;
+    font-size: 23px;
+    color: #FFF;
+    font-weight: 100; }
+  .menu ul li a:hover {
+    color: #f1004c;
+    background-color: #4ccfc1; }
+  .menu ul li p {
+    margin: 15px 0px 15px 0px;
+    color: #FFF; }
+
+.slider-main {
+  font-family: BebasNeue;
+  width: 100%;
+  background-color: #3ac3b5;
+  padding-top: 20px; }
+  .slider-main .title-slider {
+    margin-top: 10px; }
+    .slider-main .title-slider h3 {
+      font-size: 50px;
+      color: #FFF;
+      font-family: "BebasNeue";
+      font-weight: 400; }
+    .slider-main .title-slider p {
+      font-size: 14px;
+      color: #FFF;
+      font-family: "OpenSansRegular"; }
+    .slider-main .title-slider a {
+      font-size: 25px;
+      background-color: #3ac3b5;
+      border: 2px solid #f5fbfa;
+      font-family: BebasNeue;
+      color: #FFF; }
+
+.slider-product {
+  padding: 15px 0px 15px 0px;
+  font-family: BebasNeue; }
+  .slider-product .promo-one {
+    border-right: 1px solid #e7e7e7; }
+    .slider-product .promo-one .slider-product-content h3 {
+      font-size: 35px;
+      color: #a1a1a1;
+      font-family: "BebasNeue";
+      font-weight: normal; }
+    .slider-product .promo-one .slider-product-content a {
+      font-size: 16px;
+      background-color: #3cc395;
+      border: 0px;
+      font-family: BebasNeue;
+      color: #FFF; }
+
+.content {
+  font-family: BebasNeue;
+  width: 100%; }
+  .content .title-product {
+    width: 100%;
+    background-color: #41c5b7;
+    margin-bottom: 50px; }
+    .content .title-product .main-container-title {
+      margin: 0px 40px 0px 40px; }
+      .content .title-product .main-container-title h3 {
+        font-size: 25px;
+        color: #FFF;
+        font-family: "BebasNeue";
+        font-weight: 400; }
+  .content .main-container-product {
+    margin: 0px 45px 0px 45px; }
+    .content .main-container-product .thumbnail {
+      margin-bottom: 40px;
+      border-bottom: 5px solid #3cc395; }
+      .content .main-container-product .thumbnail .caption h3 {
+        font-size: 20px;
+        color: #afafaf;
+        font-family: "BebasNeue";
+        font-weight: bold; }
+      .content .main-container-product .thumbnail .caption span {
+        color: #afafaf;
+        font-size: 20px;
+        font-family: "BebasNeue";
+        float: 0;
+        padding: 0; }
+      .content .main-container-product .thumbnail .caption a {
+        font-size: 13px;
+        background-color: #3cc395;
+        border: 0;
+        font-family: BebasNeue;
+        color: #FFF; }
+
+@media screen and (max-width: 970px) {
+  .main-container-title {
+    margin: 0 auto !important; }
+  .main-container-product {
+    margin: 0 auto !important; } }
+
+footer {
+  font-family: OpenSansReGular;
+  width: 100%;
+  background-color: #3cc3b5;
+  color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  footer .footer-col p:first-child a {
+    font-size: 20px;
+    font-weight: bold; }
+  footer .footer-col p a {
+    color: #FFF; }
+
+.copyright {
+  font-family: OpenSansReGular;
+  background-color: #2da89b;
+  padding: 15px 0px 15px 0px; }
+  .copyright p {
+    font-size: 15px;
+    color: #f5fbfa;
+    font-family: "OpenSansReGular"; }

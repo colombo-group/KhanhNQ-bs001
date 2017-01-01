@@ -1,0 +1,9 @@
+@mixin button($size,$background-color,$border){
+	a{
+		font-size: $size;
+		background-color:$background-color;
+		border:$border;
+		font-family: BebasNeue;
+		color:#FFF;
+	}
+}

@@ -1,0 +1,8 @@
+@import 'mixins/title';
+@import 'mixins/price';
+@import 'mixins/button';
+@mixin content-product{
+	@include title(20px,#afafaf,'BebasNeue',bold);
+	@include price(#afafaf,20px,'BebasNeue',0,0);
+	@include button(13px,#3cc395,0);
+}

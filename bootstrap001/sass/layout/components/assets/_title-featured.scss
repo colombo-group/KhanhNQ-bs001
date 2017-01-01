@@ -1,0 +1,12 @@
+@import 'mixins/title';
+@mixin title_featured{
+	.title-product{
+		width: 100%;
+		background-color: #41c5b7;
+		margin-bottom: 50px;
+		.main-container-title{
+			margin:0px 40px 0px 40px;
+			@include title(25px,#FFF,'BebasNeue',400);
+		}
+	}
+}

@@ -1,0 +1,22 @@
+@import 'assets/mixins/price';
+#header{
+	.logo-div{
+		h1{
+			color:#3cc3b5;
+			font-family: Lobster;
+		}
+	}
+	.search-div{
+		padding-top:15px;
+		padding-bottom:10px;
+	}
+	.cart{
+		float:right;
+		@include price(#a1a1a1,20px,'BebasNeue',right,25px 0px 0px 0px);
+		img{
+			float:right;
+			padding-top:5px;
+			margin-right: 5px;
+		}
+	}
+}

@@ -1,0 +1,8 @@
+@mixin title($size,$color,$font-family,$font-weight){
+	h3{
+		font-size: $size;
+		color:$color;
+		font-family: $font-family;
+		font-weight: $font-weight;
+	}
+}

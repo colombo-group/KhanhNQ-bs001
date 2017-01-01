@@ -1,0 +1,7 @@
+@mixin p-content($size,$color,$font){
+	p{
+		font-size: $size;
+		color:$color;
+		font-family: $font;
+	}
+}

@@ -1,0 +1,15 @@
+@import 'assets/mixins/button';
+@import 'assets/mixins/title';
+@import 'assets/mixins/p-content';
+.slider-main{
+	font-family: BebasNeue;
+	width: 100%;
+	background-color: #3ac3b5;
+	padding-top:20px;
+	.title-slider{
+		margin-top:10px;
+		@include title(50px,#FFF,'BebasNeue',400);
+		@include p-content(14px,#FFF,'OpenSansRegular');
+		@include button(25px,#3ac3b5,2px solid #f5fbfa);
+	}
+}

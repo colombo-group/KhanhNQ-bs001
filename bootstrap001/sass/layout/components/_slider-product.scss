@@ -1,0 +1,13 @@
+@import 'assets/mixins/title';
+@import 'assets/mixins/button';
+.slider-product{
+	padding:15px 0px 15px 0px;
+	font-family: BebasNeue;
+	.promo-one{
+		border-right: 1px solid #e7e7e7;
+		.slider-product-content{
+		@include title(35px,#a1a1a1,'BebasNeue',normal);
+		@include button(16px,#3cc395,0px);
+		}
+	}
+}

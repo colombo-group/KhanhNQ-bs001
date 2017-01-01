@@ -1,0 +1,21 @@
+.menu{
+	background-color:#4ccfc1;
+	ul{
+		li{
+			a{
+				font-family: BebasNeue;
+				font-size: 23px;
+				color:#FFF;
+				font-weight: 100;
+			}
+			a:hover{
+				color:#f1004c;
+				background-color: #4ccfc1;
+			}
+			p{
+				margin:15px 0px 15px 0px;
+				color:#FFF;
+			}
+		}
+	}
+}
